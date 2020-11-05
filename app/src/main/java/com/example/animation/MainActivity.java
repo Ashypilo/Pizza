@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView.Adapter adapter;
     private GridLayoutManager layoutManager;
     private int column_count;
+    private String hello;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
